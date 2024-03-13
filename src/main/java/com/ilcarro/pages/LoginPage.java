@@ -52,5 +52,7 @@ public class LoginPage extends BasePage{
        assert isElementDisplayed(errorMessage);
         return this;
     }
+
+
 }
 

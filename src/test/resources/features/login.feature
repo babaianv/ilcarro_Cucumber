@@ -8,7 +8,7 @@ Feature: Login
     And User enters valid data
     And User clicks on Yalla button
     Then User verifies Success message displayed
-    And User quites browser
+#    And User quites browser
 
   @invalidPassword
   Scenario Outline: Check User cant login with invalid password
